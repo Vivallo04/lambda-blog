@@ -1,8 +1,8 @@
 <template>
-  <container>
+  <container class="container">
     Hello World
-    <NuxtLogo />
-  </container>
+    <NuxtLogo class="logo"/>
+  </container>  
 </template>
 
 <script lang="ts">
@@ -15,3 +15,8 @@ export default Vue.extend({
   components: { Default, NuxtLogo }
 });
 </script>
+
+
+<style scope> 
+
+</style>
