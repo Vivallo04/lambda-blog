@@ -23,6 +23,10 @@ export default {
   css: [
   ],
 
+  /*serverMiddleware: [
+    '~/server/api/index.ts'
+  ],8*/
+  
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
   ],
@@ -41,7 +45,7 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/axios
-    '@nuxtjs/axios', 
+    '@nuxtjs/axios',
     '@nuxt/content'
   ],
 
