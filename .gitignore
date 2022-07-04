@@ -10,6 +10,7 @@ lerna-debug.log*
 .vscode
 node_modules
 .DS_Store
+package-lock.json
 dist
 dist-ssr
 coverage
